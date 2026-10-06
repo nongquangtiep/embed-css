@@ -1,8 +1,4 @@
-/* External-style */
-body {
-    background-color: #f9f9f9;
-}
-
+/* External-style: Thay đổi màu sắc văn bản từ file CSS riêng */
 .external-text {
     color: purple;
 }
