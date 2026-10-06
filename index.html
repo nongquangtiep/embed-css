@@ -3,32 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Nhúng CSS vào trang HTML</title>
-
-    <!-- 1. External-style: Liên kết đến file CSS bên ngoài bằng thẻ link -->
+    <!-- Liên kết tệp CSS riêng biệt qua thẻ link -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- 2. Internal-style: Khai báo quy tắc CSS bên trong cặp thẻ style -->
-    <style>
-        body {
-            color: blue;
-        }
-        h1 {
-            color: green;
-        }
-    </style>
 </head>
 <body>
 
-    <!-- Nội dung chính minh họa Internal-style theo đề bài -->
+    <!-- Nội dung chính theo yêu cầu đề bài -->
     <h1>This is heading 1</h1>
     <p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
 
-    <!-- 3. Inline-style: Sử dụng trực tiếp thuộc tính style trên thẻ HTML -->
-    <h1 style="color: red;">Tiêu đề sử dụng inline-style</h1>
-    <p style="color: red;">Đoạn văn sử dụng inline-style để đổi màu.</p>
+    <!-- Áp dụng inline-style trực tiếp trên thẻ -->
+    <h1 style="color: red;">Tiêu đề áp dụng inline-style</h1>
+    <p style="color: red;">Đoạn văn áp dụng inline-style để đổi màu chữ.</p>
 
-    <!-- Đoạn văn minh họa External-style hoạt động -->
-    <p class="external-text">Đoạn văn này sử dụng external-style từ file style.css.</p>
+    <!-- Áp dụng các định dạng từ file style.css -->
+    <p class="external-text">Đoạn văn này sử dụng style từ tệp style.css.</p>
 
 </body>
 </html>

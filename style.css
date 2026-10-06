@@ -1,4 +1,24 @@
-/* External-style: Thay đổi màu sắc văn bản từ file CSS riêng */
+/* Thiết lập màu sắc và phông chữ toàn trang */
+body {
+    color: blue;
+}
+
+/* Định dạng tiêu đề chính */
+h1 {
+    color: green;
+}
+
+/* Định dạng tiêu đề sử dụng class */
+.heading-inline {
+    color: red;
+}
+
+/* Định dạng đoạn văn bản sử dụng class */
+.text-inline {
+    color: red;
+}
+
+/* Định dạng đoạn văn bản từ tệp external */
 .external-text {
     color: purple;
 }
