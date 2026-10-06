@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nhúng CSS</title>
+    <title>Nhúng CSS vào trang HTML</title>
+    
+    <!-- 1. External-style: Nhúng file CSS bên ngoài -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2. Internal-style: Khai báo CSS trong thẻ style -->
     <style>
         body {
             color: blue;
@@ -13,7 +18,17 @@
     </style>
 </head>
 <body>
+
+    <!-- Tiêu đề và đoạn văn bản cơ bản -->
     <h1>This is heading 1</h1>
     <p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+
+    <!-- 3. Inline-style: Áp dụng trực tiếp vào thuộc tính style -->
+    <h2 style="color: red;">Phần này sử dụng inline-style</h2>
+    <p style="color: orange;">Đoạn văn này được đổi màu bằng inline-style.</p>
+
+    <!-- Thể hiện tác dụng của External-style -->
+    <p class="external-text">Đoạn văn này áp dụng màu sắc từ external-style.</p>
+
 </body>
 </html>
